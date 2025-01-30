@@ -19,13 +19,12 @@ namespace Pratica03
             z = x / y;
 
 
-            Console.WriteLine(z.ToString("F3", CultureInfo.InvariantCulture) + " km/1");
+            Console.WriteLine(z.ToString("F3", CultureInfo.InvariantCulture) + " km/l");
 
 
             
 
-            Console.ReadLine();
-
+            
         }
     }
 }
