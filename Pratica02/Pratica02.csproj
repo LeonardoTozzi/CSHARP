@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Pratica12.Program</StartupObject>
+    <StartupObject>Pratica13.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
