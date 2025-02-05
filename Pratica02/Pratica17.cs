@@ -21,8 +21,16 @@ namespace Pratica17
                 cont = cont + 1;
                 idade = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             }
-            media = soma / cont;
-            Console.WriteLine(media.ToString("F2", CultureInfo.InvariantCulture));
+            if (cont ==0)
+            {
+                Console.WriteLine("Impossivel calcular"); 
+            }
+            else
+            {
+                media = soma / cont;
+                Console.WriteLine(media.ToString("F2", CultureInfo.InvariantCulture));
+            }
+            
             Console.ReadLine();
            
 
